@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { stationList } from './station-list.const';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AngularPractice';
+  list = stationList;
 }
